@@ -1,10 +1,10 @@
 export default function Topbar() {
-    return <div className="bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center justify-between px-16 py-3">
+    return <div className="bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center justify-between px-6 py-2 sm:px-10 sm:py-4">
         <div className="flex items-center gap-5">
             <div>Logo</div>
-            <div className="flex flex-col ">
-                <div className="text-white font-bold text-5xl">PRAGATI</div>
-                <div className="tracking-[0.49rem] font-robo text-white font-semibold">STUDY CENTER</div>
+            <div className="flex flex-col">
+                <div className="text-white font-bold text-2xl sm:text-5xl">PRAGATI</div>
+                <div className="font-robo text-white font-semibold text-sm sm:tracking-[0.59rem]">STUDY CENTER</div>
             </div>
         </div>
         <div className="hover:bg-blue-700 rounded-full">
