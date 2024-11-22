@@ -1,33 +1,44 @@
-import { poppins, raleway } from "../fonts/font"
+import { oswald, poppins, raleway } from "../fonts/font"
 
 export default function Attributes() {
     return <div className="mt-4 grid grid-cols-10 h-full lg:max-w-[60%] self-center"> 
-        <div className="row-span-full bg-gradient-to-br from-cyan-500 to-blue-500 rounded-lg col-span-7 col-start-2 h-64 shadow-lg shadow-blue-500/50 sm:row-span-full sm:col-span-5 sm:col-start-2" >img</div>
+        <div className={`${oswald.className} bg-gradient-to-br from-cyan-500 to-blue-500 rounded-lg col-start-2 col-span-6 h-32 flex flex-col justify-center items-end p-2 text-white text-2xl`}>
+          <div>
+            Where
+          </div>
+          <div>
+            Meets
+          </div>
+        </div>
+        <div className={`${oswald.className} flex flex-col justify-center items-start text-blue-500 text-2xl`}>
+          <div>Knowledge</div>
+          <div>Excellence</div>
+        </div>
         <div className={`${poppins.className} self-start w-[80%] bg-gradient-to-br from-orange-500 to-yellow-500 rounded-lg col-span-7 col-start-4 text-white font-bold text-xl py-2 px-2 mt-4 shadow-lg shadow-orange-500/50 sm:row-span-full sm:col-span-6 sm:col-start-6`}>Our Speciality?</div>
-        <div className="col-start-2 col-span-7 mt-4 border border-blue-500 border-4 rounded-lg p-2 shadow-lg shadow-blue-500/40 flex flex-col gap-2 text-blue-500 font-semibold">
-            <div className="flex gap-2">
+        <div className={`${poppins.className} col-start-2 col-span-7 mt-4 border border-blue-500 border-4 rounded-lg p-2 shadow-lg shadow-blue-500/40 flex flex-col gap-2 text-blue-500 font-semibold`}>
+            <div className='flex gap-2'>
                 <ComputerMark></ComputerMark>
-                <div className={`${raleway.className}`}>Digital Board</div>
+                <div>Digital Board</div>
             </div> 
             <div className="flex gap-2">
                 <BookMark></BookMark>
-                <div className={`${raleway.className}`}>Specialized Notes</div>
+                <div>Specialized Notes</div>
             </div>
             <div className="flex gap-2">
                 <QuestionMark></QuestionMark>
-                <div className={`${raleway.className}`}>Doubt Clearing Sessions</div>
+                <div>Doubt Clearing Sessions</div>
             </div>
             <div className="flex gap-2">
                 <PencilMark></PencilMark>
-                <div className={`${raleway.className}`}>Reagular Tests</div>
+                <div>Reagular Tests</div>
             </div>
             <div className="flex gap-2">
                 <GlassMark></GlassMark>
-                <div className={`${raleway.className}`}>Personalized Attention </div>
+                <div>Personalized Attention </div>
             </div>
             <div className="flex gap-2">
                 <FireMark></FireMark>
-                <div className={`${raleway.className}`}>Monthly Motivation</div>
+                <div>Monthly Motivation</div>
             </div>
         </div>
     </div>

@@ -4,9 +4,10 @@ import Topbar from "./components/Topbar"
 import './globals.css'; 
 
 export default function Home() {
- return <div>
+   return <div>
     <Topbar></Topbar>
     <HomeAdmission></HomeAdmission>
     <Attributes></Attributes>
+    
  </div>
 }

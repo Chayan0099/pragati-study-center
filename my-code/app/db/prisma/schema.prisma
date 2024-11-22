@@ -17,8 +17,9 @@ model Student {
   id String @id @default(uuid())
   password String
   class Int
-  name String
+  studentName String
   number String @unique 
+  email String @unique 
   discounts String
   admDate String
 }

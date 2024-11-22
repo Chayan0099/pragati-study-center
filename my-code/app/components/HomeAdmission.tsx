@@ -4,7 +4,7 @@ export default function HomeAdmission() {
     return <div className="flex bg-gradient-to-br from-green-500 to-green-700 mt-3 mx-4 rounded-lg py-2 px-3 gap-3 items-center shadow-lg shadow-green-700/50">
         <div className="flex flex-col items-center">
             <div className={`${oswald.className} text-3xl text-yellow-500 animate-bounce`}>Admissions</div>
-            <div className={`${raleway.className} text-xl mt-2 text-white`}>Open For</div>
+            <div className={`${oswald.className} text-xl mt-2 text-white`}>Open For</div>
             <div className={`${imperial.className} text-6xl text-yellow-500`}>2025</div>
         </div>
         <div className="flex flex-col items-center">
